@@ -4,6 +4,7 @@ export const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: "center",
+    paddingHorizontal: 32,
   },
   logo: {
     width: 214,
@@ -13,8 +14,7 @@ export const styles = StyleSheet.create({
   },
 
   list: {
-    // paddingHorizontal: 32,
-    paddingLeft: 32,
+    marginTop: 32,
     paddingRight: 64,
   },
 });
